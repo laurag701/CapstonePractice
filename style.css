@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: .2s linear;
+}
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: #000;
+}
+body{
+    background-image: url("CapstoneImg/galaxy3.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color: rgb(34, 1, 115);
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(34, 1, 115);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+
+}
+button:hover{
+    background-color: rgb(58, 15, 160);
+}
+.wrapper{
+    margin: 10px auto;
+    padding: 0 10%;
+    padding-bottom: 15px;
+    text-shadow: 0 15px 10px black;
+}
+.container{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+.box{
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: #000;
+    box-shadow: 0px 10px black;
+}
+.box img{
+    height: 120px;
+}
+.box h3{
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.box p{
+    color: #fff;
+}
+.btn{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #2ecfdd;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover{
+    letter-spacing: 1px; 
+}
+.footer{
+    padding: 30px 0;
+    background-color: #000;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+@media (max-width: 770px) {
+    .wrapper{
+        padding: 20px;
+    }
+}

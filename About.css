@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: .2s linear;
+}
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+body{
+    background-image: url("CapstoneImg/galaxy3.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color: rgb(34, 1, 115);
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(34, 1, 115);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+
+}
+button:hover{
+    background-color: rgb(58, 15, 160);
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: transparent;
+}
+.about-text{
+    color: #fff;
+    width: 550px;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+.about p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.footer{
+    padding: 30px 0;
+    background-color: #000;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+@media (max-width: 770px) {
+    .about,
+    .about-text{
+        padding: 20px;
+    }
+}
